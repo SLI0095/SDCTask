@@ -19,7 +19,7 @@ public final class PrimeFinder {
             FileInputStream file = new FileInputStream(filePath);
             Workbook workbook = new XSSFWorkbook(file);
 
-            //get first sheet form the file
+            //get first sheet from the file
             Sheet sheet = workbook.getSheetAt(0);
             for(Row r : sheet){
                 //data are always in second column
